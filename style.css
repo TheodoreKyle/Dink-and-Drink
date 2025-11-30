@@ -1,3 +1,32 @@
+.bg-layer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("Images/bgLayer.png") center/cover no-repeat;
+  z-index: -1;
+}
+
+/*header*/
+header {
+    display: grid;
+    place-items:center;    
+}
+
+/*Index.html*/
+.imageContent {
+
+
+}
+
+/*About.html*/
+.About {
+    display: grid;
+    place-items:center;
+}
+
+/*contact submission*/
 button:hover {
     background-color: green;
 }
