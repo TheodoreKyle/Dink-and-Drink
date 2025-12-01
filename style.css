@@ -9,7 +9,7 @@
 
 .Background {
   min-height: 100vh;               
-  background-image: url("bgpic.png");
+  background-image: url("images/bgpic.png");
   background-repeat: repeat-y;    
   background-size: 100% auto;      
   background-position: center top; 
