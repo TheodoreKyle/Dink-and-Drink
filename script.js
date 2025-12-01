@@ -45,7 +45,7 @@ form.addEventListener("submit", async function(event) {
         valid = false;
     }
     if (!phonePattern.test(phoneValue)) {
-        errors[2].textContent = "Phone must start with 09 and be 11 digits.";
+        errors[2].textContent = "Must be a Philippine phone number, starting with 09 and be 11 digits.";
         valid = false;
     }
     if (!messagePattern.test(messageValue)) {
